@@ -1,4 +1,4 @@
-export default class translate{
+export default class Translate{
     get(text,lang){
         return new Promise((resolve, reject) => {
             if(text.length > 5000){
